@@ -6,7 +6,7 @@ from ..schemas.product import ProductCreate, ProductResponse,ProductListResponse
 from ..services.product_service import  ProductService
 
 router = APIRouter(
-    prefix="api/products",
+    prefix="/api/products",
     tags=["products"])
 
 @router.get("",response_model=ProductListResponse,status_code=status.HTTP_200_OK)

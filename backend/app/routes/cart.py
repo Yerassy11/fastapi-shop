@@ -7,7 +7,7 @@ from ..services.cart_service import  CartService
 from pydantic import BaseModel
 
 router=APIRouter(
-    prefix="api/cart",
+    prefix="/api/cart",
     tags=["cart"]
 )
 

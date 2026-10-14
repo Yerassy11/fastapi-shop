@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session, joinedload
 
 from ..models.category import Category
 from ..models.product import Product
-from ..schemas.product import ProductCreate, ProductUpdate
+from ..schemas.product import ProductCreate
 
 class ProductRepository:
     def __init__(self, db: Session):
